@@ -122,12 +122,12 @@ export default function reducer(state = initialStore, { type, payload }) {
         return { ...state }
       } else if (!state.strictMode) {
         // eslint-disable-next-line
-        alert('WrongInput, Here is the Sequence Again')
+        alert('Miss, play the sequence again?')
         // we use 'NextSeq' to play our sequence again
         return { ...state, turn: 'PlaySeq', playerInputs: [] }
       }
       // eslint-disable-next-line
-      alert('WrongInput, Strict Mode Will Reset Everything')
+      alert('Miss, Hard mode will reset everything!')
       // we reset everything back to origin
       return { ...initialStore, series: getSeries(), strictMode: state.strictMode }
     }

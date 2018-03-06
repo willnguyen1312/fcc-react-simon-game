@@ -77,13 +77,18 @@ class Control extends Component {
           </button>
         </div>
         <div>
-          <button className={this.props.mode ? 'led led-on' : 'led'} />
-
-          <button className="round-btn" style={{ top: 5 }} onClick={this.toggle} />
-          <h5>STRICT</h5>
+          <button
+            className="round-btn"
+            style={{
+              top: 5,
+              backgroundColor: this.props.mode ? 'red' : 'blue',
+            }}
+            onClick={this.toggle}
+          />
+          <h5>{this.props.mode ? 'HARD' : 'EASY'}</h5>
         </div>
 
-        <button className="btn btn-success" style={{ marginTop: -8 }} onClick={this.restart}>
+        <button className="btn btn-primary" style={{ marginTop: -8 }} onClick={this.restart}>
           {' '}
           Restart Game{' '}
         </button>

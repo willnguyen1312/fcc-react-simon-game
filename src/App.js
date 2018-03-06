@@ -35,10 +35,10 @@ export default class App extends Component {
       <Provider store={store}>
         <Fragment>
           <div className="flex-container">
-            <Color1 name="colors t-l" id="tile0" clickable={state.clickable} />
-            <Color2 name="colors t-r" id="tile1" clickable={state.clickable} />
-            <Color3 name="colors b-l" id="tile2" clickable={state.clickable} />
-            <Color4 name="colors b-r" id="tile3" clickable={state.clickable} />
+            <Color1 name="colors t-l pointer" id="tile0" clickable={state.clickable} />
+            <Color2 name="colors t-r pointer" id="tile1" clickable={state.clickable} />
+            <Color3 name="colors b-l pointer" id="tile2" clickable={state.clickable} />
+            <Color4 name="colors b-r pointer" id="tile3" clickable={state.clickable} />
             <Control
               name="center"
               series={state.series}
