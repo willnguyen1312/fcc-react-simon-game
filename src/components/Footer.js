@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const footerStyle = {
-  backgroundColor: 'lightblue',
+  backgroundColor: 'pink',
   fontSize: '20px',
   color: 'white',
   borderTop: '1px solid #E7E7E7',
