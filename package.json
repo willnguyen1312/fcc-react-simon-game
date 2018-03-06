@@ -5,13 +5,15 @@
   "homepage": "https://willnguyen1312.github.io/fcc-react-simon-game",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1",
     "normalize.css": "^8.0.0",
     "prop-types": "^15.6.1",
     "ramda": "^0.25.0",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
