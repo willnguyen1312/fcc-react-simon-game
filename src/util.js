@@ -1,5 +1,3 @@
-// root js, outside of any Component
-
 export default function getRandomIntInclusive(f, s) {
   const min = Math.ceil(f)
   const max = Math.floor(s)

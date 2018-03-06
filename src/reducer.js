@@ -35,11 +35,8 @@ function lightUp(tile) {
 }
 
 function checkEquality(partialSeries, lengthController, playerInput) {
-  // checkEquality(state.partialSeries, state.lengthController, state.playerInputs );
   return partialSeries[lengthController] === playerInput[lengthController]
 }
-
-// //reducersssss////
 
 const initialStore = {
   series: getSeries(),

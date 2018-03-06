@@ -1,5 +1,3 @@
-// actions//////
-
 export function updateInputs(num) {
   return {
     type: 't.updateInputs',

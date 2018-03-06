@@ -15,12 +15,9 @@ class Control extends Component {
     const first = this.props.series.slice(0, 3)
     const { dispatch } = this.props
 
-    // plays the animation with sound sequences
     this.playSeq(first)
 
-    // disables clicking on button and on colors
     dispatch(start())
-    // assign the partialSeries the first time we press the button
     dispatch(partialS(first))
   }
 
@@ -48,9 +45,6 @@ class Control extends Component {
   render() {
     // eslint-disable-next-line
     if (this.props.turn === 'PlaySeq') {
-      // if player inputs are correct we go to next phase
-      // or
-      // if strict mode is not on we replay the same sequence
       this.playSeq(this.props.partialSeries)
     }
 
