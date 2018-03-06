@@ -2,7 +2,6 @@
   "name": "simon-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://willnguyen1312.github.io/fcc-react-simon-game",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^3.3.1",
